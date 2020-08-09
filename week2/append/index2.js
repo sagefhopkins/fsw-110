@@ -3,7 +3,6 @@ function sleep (time) {
   }
 function createHTML(){
     var element = document.getElementById('new');
-
     var h1 = document.createElement('h1');
     var h1_node = document.createTextNode('Welcome to my JS Site');
     h1.appendChild(h1_node);
